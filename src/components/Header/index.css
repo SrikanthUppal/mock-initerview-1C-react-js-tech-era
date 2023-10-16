@@ -1,0 +1,15 @@
+.nav-bar {
+  background-color: #f1f5f9;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  padding-left: 100px;
+}
+.website-logo {
+  width: 170px;
+}
+.link {
+  text-decoration: none;
+}

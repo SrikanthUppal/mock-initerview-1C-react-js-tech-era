@@ -1,0 +1,60 @@
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 86.2vh;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 86.2vh;
+}
+.success-container {
+  height: 86.2vh;
+  width: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.courser-heading {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-size: 50px;
+  font-weight: 600;
+}
+.course-list {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.failure-image {
+  width: 456px;
+  margin-top: 36px;
+}
+.failure-text {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 36px;
+  color: #475569;
+  margin-bottom: 0;
+}
+.failure-description {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  color: #64748b;
+}
+.retry-btn {
+  padding: 7px 26px 7px 26px;
+  font-size: 14px;
+  font-family: 'Roboto';
+  border-radius: 4px;
+  color: #e8e8e8;
+  background-color: #4656a1;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
